@@ -1,0 +1,108 @@
+::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f4f5fa;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2E2E2E;
+    border-radius: 32px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2E2E2E;
+}
+
+.css-13cymwt-control,
+.css-t3ipsp-control {
+    background: transparent !important;
+    border: 1px solid #EBEDF0 !important;
+    padding: 3px !important;
+    outline: none;
+}
+
+.css-1jqq78o-placeholder {
+    font-family: 'Manrope' !important;
+    color: #A8AEBF !important;
+}
+
+.inner .css-13cymwt-control,
+.inner .css-t3ipsp-control {
+    background: white !important;
+    border: none !important;
+    padding: 0px !important;
+    outline: none;
+}
+
+.pac-container {
+    background-color: #ffffff;
+    border: 1px solid #d4d4d4;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    z-index: 9999 !important;
+    position: relative;
+}
+
+.pac-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.pac-item:hover {
+    background-color: #f0f0f0;
+}
+
+.custom-radio {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid #EBEDF0;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.custom-radio:checked::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #C40C34;
+    /* Red color */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* MyDataTable.css */
+.p-datatable .p-checkbox-box {
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.p-datatable .p-checkbox-box.p-highlight {
+    background-color: #000 !important;
+}
+
+.p-datatable .p-checkbox-box.p-highlight .p-checkbox-icon {
+    color: #fff;
+}
+
+.react-calendar {
+    width: 100% !important;
+}
+
+.react-calendar__tile--now {
+    width: 20px !important;
+    height: 40px !important;
+    background: #2563EB !important;
+    border-radius: 50% !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
